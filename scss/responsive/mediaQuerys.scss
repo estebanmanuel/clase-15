@@ -1,0 +1,67 @@
+/* Media Querys */
+
+/* Dispositivos xs */
+@media screen and (max-width: 576px) {
+    .color-silver{
+        max-height: 10rem;
+        font-size: 0.1rem;
+    }
+
+    .maldita-foto{
+        width: auto;
+        max-height: 20vh;
+    }
+}
+
+/* Dispostivo Small */
+@media (min-width: 577px) and (max-width: 768px) {
+    .color-silver{
+        max-height: 13rem;
+        font-size: .1rem;
+    }
+
+    .maldita-foto{
+        width: auto;
+        max-height: 25vh;
+    }
+}
+
+/* Dispostivo medium */
+@media (min-width: 769px) and (max-width: 992px) {
+    .color-silver{
+        max-height: 21rem;
+        font-size: .45rem;
+    }
+
+    .maldita-foto{
+        width: auto;
+        max-height: 42vh;
+    }
+}
+
+/* Dispostivo grande */
+@media (min-width: 993px) and (max-width: 1200px) {
+    .color-silver{
+        max-height: 27rem;
+        font-size: .7rem;
+    }
+    .maldita-foto{
+        width: auto;
+        max-height: 60vh;
+    }
+}
+
+/* Dispostivo XL */
+@media (min-width: 1201px) and (max-width: 120000px) {
+    .color-silver{
+        max-height: 32.5rem;
+        font-size: 0.85rem;
+    }
+    .maldita-foto{
+        width: auto;
+        max-height: 66vh;
+    }
+}
+
+
+

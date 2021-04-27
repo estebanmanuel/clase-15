@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+//Variables SIEMPRE ARRIVA DE TODO
+@import "variables/tamanios";
+
+// Secciones
+@import "secciones/index";
+@import "secciones/sobreMi";
+@import "secciones/footer";
+@import "secciones/contacto";
+@import "secciones/submenuFotos";
+@import "secciones/submenuVideos";
+@import "secciones/materialExtra";
+@import "secciones/mixins";
+
+// Responsive
+
+@import "responsive/mediaQuerys.scss";
+
+//Ejercicio BEM
+
+@import "bem";

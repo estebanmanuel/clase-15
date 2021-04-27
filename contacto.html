@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Arvo&family=Roboto:ital,wght@0,100;0,400;1,100;1,700&display=swap" rel="stylesheet">
+        
+        <!-- entre a CDNJS.com busque fontawesome y copie el link -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    
+        <!-- Bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+        
+        <!--SEO-->
+        <meta name="descripcion" content="Entrenamiento personal basado en tus objetivos. Seguimiento individualizado para lograr cumplir lo que te propongas. Planes a tu medida.">
+        <meta name="palabras clave" content=" entrenamiento, personalizado, entrenador, personal, fisico, deporte, acrobacia">
+    
+        <!-- Tu estilo siempre ultimo -->
+        <link rel="stylesheet" href="css/estilos.css">
+        <title>Entrenador personal</title>
+    </head>
+
+<body class="bodyContacto">
+    <header>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Sobre mi.html">Sobre Mi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Material extra
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="submenu fotos.html">Imagenes</a></li>
+                                <li><a class="dropdown-item" href="submenu videos.html">Videos</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main class="altoContacto">
+        <h1 class="tituloContacto"> EL CAMBIO EMPIEZA HOY</h1>
+        <section class="paralax-mf footer-paralax bg-image sect-mt4 route"
+            style="background-image: url(assets/img/overlay-bg.jpg)">
+            <div class="overlay-mf"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="contact-mf">
+                            <div id="contact" class="box-shadow-full">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="title-box-2">
+                                            <h5 class="title-left">
+                                                Escribime
+                                            </h5>
+                                        </div>
+                                        <div>
+                                            <form action="forms/contact.php" method="post" role="form"
+                                                class="php-email-form formulario">
+                                                <!-- BEM -->
+                                                <div class="row formulario__fila1">
+                                                    <div class="col-md-12 mb-3">
+                                                        <div class="form-group">
+                                                            <input type="text" name="name" class="form-control"
+                                                                id="name" placeholder="Tu nombre" data-rule="minlen:4"
+                                                                data-msg="Please enter at least 4 chars" />
+                                                            <div class="validate"></div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-md-12 mb-3">
+                                                        <div class="form-group">
+                                                            <input type="email" class="form-control" name="email"
+                                                                id="email" placeholder="Tu Email" data-rule="email"
+                                                                data-msg="Please enter a valid email" />
+                                                            <div class="validate"></div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-md-12 mb-3">
+                                                        <div class="form-group">
+                                                            <input type="text" class="form-control" name="subject"
+                                                                id="subject" placeholder="Telefono" data-rule="minlen:4"
+                                                                data-msg="Please enter at least 8 chars of subject" />
+                                                            <div class="validate"></div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-md-12 formulario__fila1--fondoRojo">
+                                                        <div class="form-group">
+                                                            <textarea class="form-control" name="message" rows="5"
+                                                                data-rule="required"
+                                                                data-msg="Please write something for us"
+                                                                placeholder="Mensaje"></textarea>
+                                                            <div class="validate"></div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-md-12 text-center mb-3">
+                                                        <div class="loading"></div>
+                                                        <div class="error-message"></div>
+                                                        <div class="sent-message">
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="col-md-12 text-center">
+                                                        <button type="submit"
+                                                            class="button button-a button-big button-rouded">Enviar
+                                                            Mensaje</button>
+                                                    </div>
+
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="title-box-2 pt-4 pt-md-0 contenedorTituloContacto">
+                                            <h5 class="title-left contenedorTituloContacto__derecha">
+                                                Entrenamiento personalizado.
+                                            </h5>
+                                        </div>
+                                        <div class="more-info">
+                                            <p class="lead">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate,
+                                                animi repudiandae aliquid praesentium sapiente recusandae velit alias
+                                                odio, esse ipsa rerum perspiciatis earum aperiam culpa magnam adipisci
+                                                iure tempora. Vero ea ipsum libero, adipisci eos corporis explicabo
+                                                quasi nisi doloremque perferendis eligendi, et expedita. Dolorem libero,
+                                                sint quisquam voluptates praesentium consequatur quod ipsam, illo illum
+                                                laudantium incidunt ut autem fuga nihil, saepe iste nisi labore natus
+                                                numquam? Odio vitae tempora ad mollitia inventore labore aut, deleniti
+                                                libero laborum sequi necessitatibus, sint iure, ut harum esse natus
+                                                accusantium voluptates itaque autem dignissimos et. Quas itaque corrupti
+                                                molestias accusantium dolore pariatur perspiciatis iste mollitia,
+                                                expedita, doloribus in fugit, ab nobis tempora reprehenderit deleniti
+                                                cupiditate recusandae nesciunt quod quaerat ducimus magnam? Doloremque,
+                                                ipsam impedit ipsum sunt modi vel perferendis architecto repellat
+                                                molestias odit vero delectus quos provident magnam. Cupiditate sunt
+                                                velit nobis harum, odio voluptates accusamus dolor aperiam unde fugiat
+                                                beatae dolores voluptatibus.
+                                            </p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        </div>
+
+        </form>
+
+    </main>
+
+    <footer class="claseFooter">
+
+        <div class="rowUno contenedorInfo">
+            <h2 class="footerTitulo contenedorInfo__tituloRojo">Informacion contactos</h2>
+
+            <h3 class="footerSubtitulos"> <i class="fas fa-map-marker-alt"></i> San Telmo</h3>
+            <h3 class="footerSubtitulos"> <i class="fas fa-mobile-alt"></i> 11-67064877</h3>
+            <h3 class="footerSubtitulos"> <i class="fas fa-envelope-square"></i> ivanmartres@gmail.com</h3>
+        </div>
+
+        <div class="rowDos contenedorInfoDerecha">
+
+            <h2 class="footerTitulo contenedorInfoDerecha__tituloAzul">Redes Sociales</h2>
+            <ol>
+                <li>
+                    <a href="https://www.facebook.com/ivan.martres" target="_blank"><i class="fab fa-facebook"></i>
+                        Sigueme en facebook</a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/ivan_martres/?hl=es-la" target="_blank"> <i
+                            class="fab fa-instagram"></i> Sigueme en Intagram</a>
+                </li>
+            </ol>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

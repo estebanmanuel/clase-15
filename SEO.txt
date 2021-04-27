@@ -1,0 +1,13 @@
+lugares donde podremos ver donde aplique SEO.
+
+1) Cambie el lenguaje en <html lang="es"> (gracias a esa etiqueta podemos identificar el idioma de la pagina web, importante para una persona que esta buscando datos en español)
+2) Agregue un title diferente por cada seccion de mi web.
+3) Metadatos: para ver la descripcion en el buscador. (con la etiqueta <meta name="descripcion" content="Entrenamiento personal basado en tus objetivos. Seguimiento individualizado para lograr cumplir lo que te propongas. Planes a tu medida.">)
+4) Palabras claves o keywords: (<meta name="palabras clave" content=" entrenamiento, personalizado, entrenador, personal, fisico, deporte, acrobacia">)
+5) poner la descripcion en todas las etiquetras (ALT) - agregado.
+6) Corregida la eleccion de encabezados (h1, h2, h3...)
+7) Enlaces: optimizarlos con la etiqueta rel= "NOFOLLOW" - agregado.
+8) comprimir fotos y videos para que pesen menos. - agregado.
+9) Modificado el formado de los archivos.
+10) Corregidas faltas de ortografia.
+11) 
